@@ -5,6 +5,6 @@ install:
  - pip3 install coverage
 
 script: 
- - coverage run test_high_coverage.py
+ - coverage run test_py.py
  - coverage report
 
